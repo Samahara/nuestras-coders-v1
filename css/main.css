@@ -1,0 +1,50 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+}
+
+header > h2 {
+  margin: 8px 15px;;
+}
+
+header > hr {
+  background-color: black;
+  border: none;
+  height: 5px;
+  margin-left: 15px;
+  width: 5%;
+}
+
+#coders_container {
+  margin: 15px 1%;
+  height: 560px;
+  width: 98%;
+}
+
+#coders_container > div {
+  background-image: url("http://lorempixel.com/300/250/people/");
+  height: 250px;
+  display: inline-block;
+  margin: 15px;
+  width: 300px;
+}
+
+#coders_container > div > p {
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  padding: 200px 0px 0px 160px;
+}
+
+#main_container {
+  height: 580px;
+  width: 100%;
+}
+
+.m-0 {
+  margin: 0;
+}
